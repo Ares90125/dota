@@ -5,13 +5,13 @@
  Source Server Type    : MySQL
  Source Server Version : 100420
  Source Host           : localhost:3306
- Source Schema         : dota
+ Source Schema         : dotas
 
  Target Server Type    : MySQL
  Target Server Version : 100420
  File Encoding         : 65001
 
- Date: 18/01/2023 06:08:50
+ Date: 18/01/2023 06:51:08
 */
 
 SET NAMES utf8mb4;
@@ -113,8 +113,8 @@ CREATE TABLE `data_types`  (
 INSERT INTO `data_types` VALUES (1, 'users', 'users', 'User', 'Users', 'voyager-person', 'App\\Models\\User', 'TCG\\Voyager\\Policies\\UserPolicy', 'TCG\\Voyager\\Http\\Controllers\\VoyagerUserController', NULL, 1, 0, '{\"order_column\":null,\"order_display_column\":null,\"order_direction\":\"desc\",\"default_search_key\":null,\"scope\":null}', '2023-01-17 10:17:58', '2023-01-17 17:00:02');
 INSERT INTO `data_types` VALUES (3, 'roles', 'roles', 'Role', 'Roles', 'voyager-lock', 'TCG\\Voyager\\Models\\Role', NULL, 'TCG\\Voyager\\Http\\Controllers\\VoyagerRoleController', '', 1, 0, NULL, '2023-01-17 10:18:00', '2023-01-17 10:18:00');
 INSERT INTO `data_types` VALUES (13, 'menus', 'menus', 'Menu', 'Menus', 'voyager-list', 'TCG\\Voyager\\Models\\Menu', NULL, '', '', 1, 0, NULL, '2023-01-17 12:23:53', '2023-01-17 12:23:53');
-INSERT INTO `data_types` VALUES (14, 'heroes', 'heroes', 'Hero', 'Heroes', 'voyager-pirate', 'App\\Models\\Hero', NULL, 'App\\Http\\Controllers\\HeroController', NULL, 1, 0, '{\"order_column\":null,\"order_display_column\":null,\"order_direction\":\"asc\",\"default_search_key\":null,\"scope\":null}', '2023-01-17 12:25:55', '2023-01-17 19:20:09');
-INSERT INTO `data_types` VALUES (15, 'weapons', 'weapons', 'Weapon', 'Weapons', 'voyager-pirate-swords', 'App\\Models\\Weapon', NULL, 'App\\Http\\Controllers\\WeaponController', NULL, 1, 0, '{\"order_column\":null,\"order_display_column\":null,\"order_direction\":\"asc\",\"default_search_key\":null,\"scope\":null}', '2023-01-17 13:29:22', '2023-01-17 19:20:42');
+INSERT INTO `data_types` VALUES (14, 'heroes', 'heroes', 'Hero', 'Heroes', 'voyager-pirate', 'App\\Models\\Hero', NULL, '', NULL, 1, 0, '{\"order_column\":null,\"order_display_column\":null,\"order_direction\":\"asc\",\"default_search_key\":null,\"scope\":null}', '2023-01-17 12:25:55', '2023-01-17 19:20:09');
+INSERT INTO `data_types` VALUES (15, 'weapons', 'weapons', 'Weapon', 'Weapons', 'voyager-pirate-swords', 'App\\Models\\Weapon', NULL, '', NULL, 1, 0, '{\"order_column\":null,\"order_display_column\":null,\"order_direction\":\"asc\",\"default_search_key\":null,\"scope\":null}', '2023-01-17 13:29:22', '2023-01-17 19:20:42');
 
 -- ----------------------------
 -- Table structure for failed_jobs

@@ -20,6 +20,6 @@ class Weapon extends Model
         return $this->Heros()->count();
     }
     public function Heros(){
-        return $this->belongsToMany(weapon::class, 'heroweapons', 'weapon_id', 'hero_id');
+        return $this->belongsToMany(Hero::class, 'heroweapons', 'weapon_id', 'hero_id');
     }
 }
