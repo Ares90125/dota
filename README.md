@@ -4,13 +4,13 @@
 
 ## Project setup
 
-### Version
++ Version
 
-  `PHP` 8.0.8
+    `PHP` 8.0.8
   
-  `Laravel` 9.47.0
+    `Laravel` 9.47.0
   
-  `Node` 16.14.2
+     `Node` 16.14.2
 
 + step 1
 create .env fie
