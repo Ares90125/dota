@@ -1,7 +1,3 @@
-# Test project 
-
-## Auther : Alexis
-
 ## Project setup
 
 + Version
@@ -100,11 +96,4 @@ create .env fie
 
    `password`: 123123123
 
-
-
-## Contact Info for question or help 
-  
-  `mail`: maw53574@gmail.com
-
-  `skype`: live:.cid.1ff854fb8e309dce
 
